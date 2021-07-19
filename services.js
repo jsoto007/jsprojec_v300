@@ -1,3 +1,5 @@
+const URL = 'http://localhost:3000/payroll'
+
 
 fetch('http://localhost:3000/payroll')
 .then(response => response.json())
