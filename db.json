@@ -2,12 +2,8 @@
 "payroll": [
 
     {
-        "id": 1,
-        "rate": 30,
-        "overTime": 45,
-        "firstName": "jose",
-        "lastName": "soto",
-        "jobTitle": "lead"
+        "info1": "All the information provided is to be added here"
+        
         
     },
     

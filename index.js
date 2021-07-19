@@ -1,26 +1,26 @@
 
-document.getElementById("lastN").addEventListener("submit", userInput);
+// document.getElementById("lastN").addEventListener("submit", userInput);
 
-function userInput(event) {
+// function userInput(event) {
 
-    event.preventDefault();
+//     event.preventDefault();
 
-   const userFName = document.getElementById("fName").value
-   const userLName = document.getElementById("lName").value
+//    const userFName = document.getElementById("fName").value
+//    const userLName = document.getElementById("lName").value
 
-   console.log(input.value);
+//    console.log(input.value);
 
    
 
-}
+// }
 
-const lastLP = document.querySelector('#lName')
+// const lastLP = document.querySelector('#lName')
 
-lastLP.parentElement.addEventListener('submit', (event)=> {
-    event.preventDefault()
-    console.log(input.value);
+// lastLP.parentElement.addEventListener('submit', (event)=> {
+//     event.preventDefault()
+//     console.log(input.value);
     
-})
+// })
 
 
 
