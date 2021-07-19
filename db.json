@@ -2,8 +2,11 @@
 "payroll": [
 
     {
-        "info1": "All the information provided is to be added here"
-        
+        "id": 1,
+        "rate": 30,
+        "overTime": 45,
+        "fullName": "Jose Soto",
+        "jobTitle": "lead"
         
     },
     
@@ -11,8 +14,7 @@
         "id": 2,
       "rate": 25,
       "overTime": 37.50,
-      "firstName": "Sam",
-      "lastName": "Smith",
+      "fullName": "Sam Smith",
       "jobTitle": "assit"
     },
 
@@ -20,8 +22,7 @@
         "id": 3,
       "rate": 20,
       "overTime": 30,
-      "firstName": "Bobby",
-      "lastName": "Tarantino",
+      "fullName": "Bobby Tarantino",
       "jobTitle": "staff"
     }
 
