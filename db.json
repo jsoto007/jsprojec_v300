@@ -1,0 +1,35 @@
+{
+"payroll": [
+
+    {
+        "id": 1,
+        "rate": 30,
+        "overTime": 45,
+        "firstName": "jose",
+        "lastName": "soto",
+        "jobTitle": "lead"
+        
+    },
+    
+    {
+        "id": 2,
+      "rate": 25,
+      "overTime": 37.50,
+      "firstName": "Sam",
+      "lastName": "Smith",
+      "jobTitle": "assit"
+    },
+
+    {
+        "id": 3,
+      "rate": 20,
+      "overTime": 30,
+      "firstName": "Bobby",
+      "lastName": "Tarantino",
+      "jobTitle": "staff"
+    }
+
+
+
+]
+}
