@@ -1,7 +1,7 @@
 const URL = 'http://localhost:3000/payroll'
 
-async function fetEmployeeInfo() {
-    const response = await fetch(URL, {
+function fetEmployeeInfo() {
+    return fetch(URL, {
         headers: {
             'Accept': 'application/json'
         }

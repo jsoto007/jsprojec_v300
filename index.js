@@ -19,6 +19,7 @@ const lastLP = document.querySelector('#lName')
 lastLP.parentElement.addEventListener('submit', (event)=> {
     event.preventDefault()
     console.log(input.value);
+    
 })
 
 
