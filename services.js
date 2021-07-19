@@ -8,7 +8,7 @@ fetch(URL)
   const ul = document.querySelector('#time_sheet');
 
     const userInfo = document.querySelector('#load_info_1')
-    userInfo.parentElement.addEventListener('click', (event)=> {
+    userInfo.addEventListener('click', (event)=> {
         event.preventDefault()
 
         const foundEmp = data.find(employee => {
