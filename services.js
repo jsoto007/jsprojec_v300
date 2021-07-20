@@ -10,7 +10,7 @@ fetch(URL)
     const userInfo = document.querySelector('#load_info_1')
     userInfo.addEventListener('click', (event)=> {
         event.preventDefault()
-
+        
         const foundEmp = data.find(employee => {
             return userInfo.innerText === employee.fullName
         })
@@ -21,5 +21,6 @@ fetch(URL)
         ul.append(li);
     })
 })
+
 
 
