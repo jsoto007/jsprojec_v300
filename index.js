@@ -19,7 +19,11 @@ fetch(URL)
         const li = document.createElement('li')
         li.textContent = empInfo2
         ul.append(li);
+        li.addEventListener('click', event => removeInfo2(event))
     })
+    function removeInfo2(event){
+        event.target.remove()
+    }
 })
 
 
@@ -44,7 +48,11 @@ fetch(URL)
         const li = document.createElement('li')
         li.textContent = empInfo3
         ul.append(li);
+        li.addEventListener('click', event => removeInfo3(event))
     })
+    function removeInfo3(event){
+        event.target.remove()
+    }
 })
 
 

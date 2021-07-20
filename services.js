@@ -19,7 +19,12 @@ fetch(URL)
         const li = document.createElement('li')
         li.textContent = empInfo
         ul.append(li);
+        li.addEventListener('click', event => removeInfo(event))
     })
+
+    function removeInfo(event){
+        event.target.remove()
+    }
 })
 
 
