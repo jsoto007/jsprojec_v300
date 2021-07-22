@@ -1,4 +1,5 @@
-
+#General
+- This program allows the user to request infomaton from a json server, display it in the page, and clears the infomation requested by clicking on it.
 
 #Requirements to install and run this program.
 - JSON server.
